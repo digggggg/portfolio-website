@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+.about--container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.about {
+  display: flex;
+  max-width: 81.5rem;
+  box-shadow: -6px -6px 10px 0 #30343a, 6px 6px 10px 0 #24262c;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.about--textinfo {
+  max-width: 56rem;
+  font-family: "Manrope", sans-serif;
+  margin-left: 3rem;
+}
+
+.about--textinfo h3 {
+  font-size: 1.5rem;
+}
+
+.about--textinfo h2 {
+  font-size: 2rem;
+}
+
+.about--textinfo p {
+  font-size: 1rem;
+}

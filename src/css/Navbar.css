@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Manrope", sans-serif;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #282c30;
+}
+
+.nav--header {
+  display: flex;
+  margin-left: 1.5rem;
+  font-size: 2rem;
+}
+
+.nav--header h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav--links {
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.nav--links a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #efeef3;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
