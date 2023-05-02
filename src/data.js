@@ -3,7 +3,7 @@ const data = [
     title: "Date Night Bites",
     description:
       "My first project website project I ever built with two other people. We used vanilla HTML, Bulma for CSS, jQuery, and 2 API's. The website helps with searching for recipes to eat and pairing them with cocktails",
-    image: "src\\assets\\date-night-bites.webp",
+    image: "src\\assets\\datenightbitesweb.webp",
     website: "https://digggggg.github.io/date-night-bites/",
     github: "https://github.com/digggggg/date-night-bites",
   },

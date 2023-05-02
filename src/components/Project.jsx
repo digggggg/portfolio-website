@@ -10,8 +10,10 @@ export default function Project() {
   return (
     <div className="project">
       <div className="project--all">
-        <div className="project--img">
-          <img src="src\assets\date-night-bites.webp" />
+        <div className="padding--style">
+          <div className="project--img">
+            <img src="src\\assets\\datenightbitesweb.webp" />
+          </div>
         </div>
         <div className="project--text">
           <h2>Benji</h2>
