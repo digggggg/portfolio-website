@@ -10,7 +10,7 @@
 
 .about {
   display: flex;
-  max-width: 81.5rem;
+  max-width: 77.4rem;
   box-shadow: -6px -6px 10px 0 #30343a, 6px 6px 10px 0 #24262c;
   padding: 2rem;
   border-radius: 2rem;
@@ -32,4 +32,27 @@
 
 .about--textinfo p {
   font-size: 1rem;
+}
+
+.about--image--wrapper img {
+  width: 30rem;
+  height: 18rem;
+  border-radius: 0.8rem;
+}
+
+.about--image--wrapper {
+  padding: 1rem;
+  background-color: #30343a;
+  border-radius: 2rem;
+}
+
+.tech--list {
+  display: flex;
+  padding: 0;
+}
+
+.tech--list li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
 }

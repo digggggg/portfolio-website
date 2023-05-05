@@ -57,10 +57,10 @@
   transform: translateY(0%);
   transition: all 6s ease-in-out;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .project--img img:hover {
-  cursor: pointer;
   transform: translateY(-78%);
 }
 

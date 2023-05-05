@@ -6,28 +6,25 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "../css/Project.css";
 
-export default function Project() {
+export default function Project(props) {
   return (
     <div className="project">
       <div className="project--all">
         <div className="padding--style">
           <div className="project--img">
-            <img src="src\\assets\\datenightbitesweb.webp" />
+            <a href={props.website}>
+              <img src={props.image} />
+            </a>
           </div>
         </div>
         <div className="project--text">
-          <h2>Benji</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consect adipiscing elit lobortis arcu
-            enim urna scing praesent velit viverra sit lorem.Lorem ipsum dolor
-            sit amet, consect adipiscing elit lobortis arcu enim urna scing
-            praesent velit viverra sit lorem.
-          </p>
+          <h2>{props.title}</h2>
+          <p>{props.description}</p>
           <div className="project--links">
-            <a>
+            <a href={props.website}>
               Live Project <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </a>
-            <a>
+            <a href={props.github}>
               Code <FontAwesomeIcon icon={faCode} />
             </a>
           </div>

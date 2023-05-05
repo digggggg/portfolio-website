@@ -25,7 +25,7 @@ export default function Home() {
             <img className="home--image" src="https://placehold.co/350" />
           </div>
           <div className="home--buttons">
-            <div className="home--button--container">
+            <div className="home--button--container" id="about">
               <a href="https://github.com/digggggg">
                 <FontAwesomeIcon icon={faGithub} size="2xl" />
               </a>
