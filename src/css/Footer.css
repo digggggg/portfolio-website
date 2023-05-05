@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer--container {
+  display: flex;
+  font-family: "Manrope", sans-serif;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 30rem;
+}

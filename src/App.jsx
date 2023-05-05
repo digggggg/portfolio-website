@@ -14,8 +14,8 @@ export default function App() {
       <Home />
       <About />
       <Projects />
-      {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }

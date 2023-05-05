@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact--container {
+  display: flex;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  width: 77rem;
+  max-width: 77rem;
+  box-shadow: -6px -6px 10px 0 #30343a, 6px 6px 10px 0 #24262c;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.contact h3 {
+  font-size: 1.5rem;
+}
+
+.contact h2 {
+  font-size: 2rem;
+}
