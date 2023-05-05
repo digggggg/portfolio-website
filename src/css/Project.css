@@ -15,6 +15,14 @@
   width: 35rem;
 }
 
+.project--text p {
+  margin-top: 0.2rem;
+}
+
+.project--text h2 {
+  color: #81ecec;
+}
+
 .project--links {
   display: flex;
   text-decoration: none;

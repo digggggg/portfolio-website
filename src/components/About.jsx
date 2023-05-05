@@ -9,7 +9,7 @@ export default function About() {
           <img src="src\assets\computers.webp" />
         </div>
         <div className="about--textinfo">
-          <h3>About Me</h3>
+          <h3 style={{ color: "#81ecec" }}>About Me</h3>
           <h2>Front End Web Development</h2>
           <p>
             I have always had an interest in coding. I started self teaching
@@ -21,15 +21,15 @@ export default function About() {
           <div>
             <h3>Tech</h3>
             <ul className="tech--list">
-              <li>React</li>
+              <li style={{ color: "#81ecec" }}>React</li>
               <li>Express</li>
-              <li>Sequelize</li>
+              <li style={{ color: "#81ecec" }}>Sequelize</li>
               <li>MongoDB</li>
-              <li>MySQL</li>
+              <li style={{ color: "#81ecec" }}>MySQL</li>
               <li>CSS</li>
-              <li>Tailwind</li>
+              <li style={{ color: "#81ecec" }}>Tailwind</li>
               <li>Bootstrap</li>
-              <li>JS</li>
+              <li style={{ color: "#81ecec" }}>JS</li>
             </ul>
           </div>
         </div>

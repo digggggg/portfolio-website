@@ -31,6 +31,10 @@
   color: #efeef3;
 }
 
+.nav--links a:hover {
+  color: #81ecec;
+}
+
 #navbar {
   position: sticky;
   top: 0;
