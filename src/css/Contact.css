@@ -8,11 +8,13 @@
   justify-content: center;
   font-family: "Manrope", sans-serif;
   margin-bottom: 2rem;
+  max-width: 81.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact {
-  width: 77rem;
-  max-width: 77rem;
+  width: 81.5rem;
   box-shadow: -6px -6px 10px 0 #30343a, 6px 6px 10px 0 #24262c;
   padding: 2rem;
   border-radius: 2rem;
@@ -62,4 +64,20 @@
 
 .social--skipped {
   color: #efeef3;
+}
+
+@media screen and (max-width: 61.875em) {
+  .contact--container {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .social {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    font-size: 1rem;
+    grid-row-gap: 0.5rem;
+  }
 }

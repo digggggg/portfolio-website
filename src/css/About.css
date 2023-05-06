@@ -6,11 +6,13 @@
   display: flex;
   justify-content: center;
   margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 81.5rem;
 }
 
 .about {
   display: flex;
-  max-width: 77.4rem;
   box-shadow: -6px -6px 10px 0 #30343a, 6px 6px 10px 0 #24262c;
   padding: 2rem;
   border-radius: 2rem;
@@ -46,13 +48,76 @@
   border-radius: 2rem;
 }
 
-.tech--list {
+.tech--list1 {
   display: flex;
   padding: 0;
 }
 
-.tech--list li {
+.tech--list1 li {
   list-style-type: none;
   font-size: 1.2rem;
   margin-right: 0.5rem;
+}
+
+.tech--list2 {
+  display: flex;
+  padding: 0;
+}
+
+.tech--list2 li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.list--container {
+  display: flex;
+}
+
+@media screen and (max-width: 61.875em) {
+  .about--container {
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .about--textinfo {
+    width: 95%;
+  }
+
+  .about--textinfo p {
+    width: 85%;
+  }
+
+  .list--container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tech--list1 {
+    flex-direction: column;
+    margin-left: 4rem;
+  }
+
+  .tech--list2 {
+    flex-direction: column;
+    margin-right: 4rem;
+  }
+
+  #list--title {
+    justify-content: center;
+    display: flex;
+    margin-top: 0.3rem;
+  }
 }

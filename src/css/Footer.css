@@ -15,3 +15,9 @@
   align-items: center;
   gap: 30rem;
 }
+
+@media screen and (max-width: 61.875em) {
+  .footer {
+    gap: 6rem;
+  }
+}

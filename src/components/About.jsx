@@ -19,18 +19,22 @@ export default function About() {
             now I am looking to improve my ability by finding good mentorship.
           </p>
           <div>
-            <h3>Tech</h3>
-            <ul className="tech--list">
-              <li style={{ color: "#81ecec" }}>React</li>
-              <li>Express</li>
-              <li style={{ color: "#81ecec" }}>Sequelize</li>
-              <li>MongoDB</li>
-              <li style={{ color: "#81ecec" }}>MySQL</li>
-              <li>CSS</li>
-              <li style={{ color: "#81ecec" }}>Tailwind</li>
-              <li>Bootstrap</li>
-              <li style={{ color: "#81ecec" }}>JS</li>
-            </ul>
+            <h3 id="list--title">Tech</h3>
+            <div className="list--container">
+              <ul className="tech--list1">
+                <li style={{ color: "#81ecec" }}>React</li>
+                <li>Express</li>
+                <li style={{ color: "#81ecec" }}>Sequelize</li>
+                <li>MongoDB</li>
+                <li style={{ color: "#81ecec" }}>MySQL</li>
+              </ul>
+              <ul className="tech--list2">
+                <li>CSS</li>
+                <li style={{ color: "#81ecec" }}>Tailwind</li>
+                <li>Bootstrap</li>
+                <li style={{ color: "#81ecec" }}>JS</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
