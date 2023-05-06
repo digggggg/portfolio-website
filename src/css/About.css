@@ -121,3 +121,35 @@
     margin-top: 0.3rem;
   }
 }
+
+@media screen and (max-width: 40.625em) {
+  .about--container {
+    max-width: 22rem;
+  }
+  .about--image--wrapper img {
+    height: 18rem;
+    width: 20rem;
+  }
+
+  .about--image--wrapper {
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+  }
+
+  .about--textinfo {
+    width: 100%;
+  }
+
+  #list--title {
+    margin-right: 4rem;
+  }
+
+  .list--container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tech--list1 {
+    margin-right: 4rem;
+  }
+}

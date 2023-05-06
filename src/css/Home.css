@@ -101,3 +101,20 @@
     width: 38%;
   }
 }
+
+@media screen and (max-width: 40.625em) {
+  .home {
+    width: 22rem;
+  }
+
+  .image--container {
+    padding: 1rem;
+    width: 70%;
+    border-radius: 100%;
+  }
+
+  .home--textinfo p {
+    font-size: 1.5rem;
+    width: 18rem;
+  }
+}
