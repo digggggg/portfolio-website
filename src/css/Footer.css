@@ -21,3 +21,9 @@
     gap: 6rem;
   }
 }
+
+@media screen and (max-width: 40.625em) {
+  .footer {
+    gap: 3.5rem;
+  }
+}

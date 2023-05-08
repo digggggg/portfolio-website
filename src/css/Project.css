@@ -77,3 +77,9 @@
   background-color: #30343a;
   border-radius: 2rem;
 }
+
+@media screen and (max-width: 40.625em) {
+  .project--text {
+    width: 20rem;
+  }
+}

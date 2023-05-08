@@ -18,7 +18,7 @@ export default function About() {
             completed the Web Development Bootcamp from Berkley Extension and
             now I am looking to improve my ability by finding good mentorship.
           </p>
-          <div>
+          <div className="about--list--with--header">
             <h3 id="list--title">Tech</h3>
             <div className="list--container">
               <ul className="tech--list1">

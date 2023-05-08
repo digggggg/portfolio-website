@@ -81,3 +81,18 @@
     grid-row-gap: 0.5rem;
   }
 }
+
+@media screen and (max-width: 40.625em) {
+  .contact--container {
+    max-width: 22rem;
+  }
+  .social {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .contact--h3 {
+    font-size: 1rem;
+  }
+}

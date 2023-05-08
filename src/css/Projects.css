@@ -30,4 +30,7 @@
 }
 
 @media screen and (max-width: 40.625em) {
+  #projects {
+    max-width: 22rem;
+  }
 }

@@ -1,21 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "../css/Navbar.css";
 
 export default function Navbar() {
-  // const navbar = React.useRef(null);
+  const [menu, setMenu] = useState("menu hidden");
+  const [isMenuClicked, setIsMenuClicked] = useState(false);
 
-  // function fixed() {
-  //   const element = navbar.current;
-  //   if (window.pageYOffset >= element.offsetTop + 1) {
-  //     navbar.current.classList.add("sticky");
-  //   } else {
-  //     navbar.current.classList.remove("sticky");
-  //   }
-  // }
-
-  // window.onscroll = function () {
-  //   fixed();
-  // };
+  // We have a burger bar that is always visible, when the burger bar is clicked we open the menu
+  // classes for visibility of the menu, and a boolean to remember if it was clicked
 
   return (
     <div id="navbar">
@@ -30,6 +23,9 @@ export default function Navbar() {
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
+        </div>
+        <div className="burger--menu">
+          <FontAwesomeIcon icon={faBars} size="2xl" />
         </div>
       </nav>
     </div>
