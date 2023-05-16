@@ -25,7 +25,6 @@
 
 .project--links {
   display: flex;
-  text-decoration: none;
   justify-content: space-evenly;
 }
 
@@ -35,6 +34,7 @@
   box-shadow: -6px -6px 10px 0 #30343a, 6px 6px 10px 0 #24262c;
   border-radius: 3rem;
   color: #efeef3;
+  text-decoration: none;
 }
 
 .project--links a:hover {
