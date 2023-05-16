@@ -16,7 +16,7 @@ export default function About() {
             before and during community college, my Computer Science professor
             recommended me to a bootcamp that was a faster pace then school. I
             completed the Web Development Bootcamp from Berkley Extension and
-            now I am looking to improve my ability by finding good mentorship.
+            now I am looking to improve my skills by finding good mentorship.
           </p>
           <div className="about--list--with--header">
             <h3 id="list--title">Tech</h3>

@@ -1,12 +1,18 @@
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   font-family: "Manrope", sans-serif;
   margin-top: 0;
   margin-bottom: 2rem;
   padding: 1rem;
   background-color: #282c30;
+}
+
+.desktop--navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .nav--header {
@@ -43,4 +49,30 @@
 
 .burger--menu {
   display: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: flex;
+}
+
+.menu {
+  width: 93vw;
+  height: 100vh;
+  background-color: #81ecec;
+  border-radius: 4%;
+  z-index: 800;
+}
+
+@media screen and (max-width: 61.875em) {
+  .nav--links {
+    display: none;
+  }
+  .burger--menu {
+    display: flex;
+  }
 }
