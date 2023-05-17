@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <div className="profile--container">
           <div className="image--container">
-            <img className="home--image" src="/assets/profile-blue_1.webp" />
+            <img className="home--image" src="public\assets\profile1.webp" />
           </div>
           <div className="home--buttons">
             <div className="home--button--container" id="about">

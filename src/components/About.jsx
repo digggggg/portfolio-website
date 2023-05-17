@@ -6,7 +6,7 @@ export default function About() {
     <div className="about--container">
       <div className="about">
         <div className="about--image--wrapper">
-          <img src="src\assets\computers.webp" />
+          <img src="assets\computers.webp" />
         </div>
         <div className="about--textinfo">
           <h3 style={{ color: "#81ecec" }}>About Me</h3>

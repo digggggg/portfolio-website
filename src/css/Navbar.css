@@ -8,6 +8,11 @@
   background-color: #282c30;
 }
 
+.navbar--burger {
+  margin: 0;
+  padding: 0;
+}
+
 .desktop--navbar {
   display: flex;
   justify-content: space-between;
@@ -61,11 +66,36 @@
 }
 
 .menu {
-  width: 93vw;
+  width: 100vw;
   height: 100vh;
-  background-color: #81ecec;
-  border-radius: 4%;
+  background-color: #17181a;
   z-index: 800;
+  margin: 0;
+}
+
+.menu--options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15rem;
+  gap: 5rem;
+  font-size: 2rem;
+}
+
+.menu--options a {
+  text-decoration: none;
+  color: #efeef3;
+}
+
+.burger--icon {
+  z-index: 10;
+}
+
+.exit--icon {
+  display: flex;
+  margin-left: auto;
+  margin-right: 2rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 61.875em) {
@@ -74,5 +104,11 @@
   }
   .burger--menu {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 40.625em) {
+  .nav--header h2 {
+    font-size: 1.2rem;
   }
 }
